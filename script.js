@@ -11,6 +11,6 @@ function updateDateTime() {
       var formattedDate = day + "/" + month + "/" + year;
       var formattedTime = hours + ":" + minutes + ":" + seconds;
 
-      document.getElementById("timer").textContent = formattedDate+" "+formattedTime;
+      document.getElementById("timer").textContent = formattedDate+", "+formattedTime;
     }
 setInterval(updateDateTime, 1000);
